@@ -30,12 +30,12 @@ Step 05:<br>
 Modify the webpack.mix.js file<br>
 <code>mix.js('resources/js/app.js', 'public/js').vue()</code><br>
 <code> .postCss('resources/css/app.css', 'public/css', []);</code><br><br>
-Step 04:<br>
+Step 06:<br>
 Modify the laravel root blade file with #root id<br><br>
-Step 05:<br>
+Step 07:<br>
 npm run watch
 
-Step 06:<br>
+Step 08:<br>
 php artisan serve
 
 ============================================================================================================================
