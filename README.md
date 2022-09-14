@@ -8,28 +8,25 @@
 </p>
 <h3>##Laravel & Vue js integration</h3>
 
-step 01:<br>
+Step 01:<br>
 composer create-project laravel/laravel example-app<br>
 or<br>
 composer global require laravel/installer<br>
 laravel new example-app<br>
 
-step 02:<br>
+Step 02:<br>
 npm install<br>
 
-step 03:<br>
+Step 03:<br>
 npm install vue@next vue-loader@next
 
-step 04:<br>
+Step 04:<br>
 Modify the resources/js/app.js file<br>
-<code>
-require('./bootstrap');<br>
-import {createApp} from 'vue';<br>
-import App from './App.vue';<br>
-
-createApp(App).mount('#root');<br>
-</code>
-step 05:<br>
+<code>require('./bootstrap');</code>
+<code>import {createApp} from 'vue';</code>
+<code>import App from './App.vue';</code><br>
+<code>createApp(App).mount('#root');</code><br/>
+Step 05:<br>
 Modify the webpack.mix.js file
 
 mix.js('resources/js/app.js', 'public/js').vue()<br>
@@ -37,17 +34,13 @@ mix.js('resources/js/app.js', 'public/js').vue()<br>
         //
     ]);<br>
 
-step 04:<br>
+Step 04:<br>
 Modify the laravel root blade file with #root id<br>
-<code>
- <div id="root"><br>
 
- </div>
- </code>
-step 05:<br>
+Step 05:<br>
 npm run watch
 
-step 06:<br>
+Step 06:<br>
 php artisan serve
 
 ============================================================================================================================
