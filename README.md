@@ -22,13 +22,13 @@ npm install vue@next vue-loader@next
 
 step 04:
 Modify the resources/js/app.js file
-
+<code>
 require('./bootstrap');
 import {createApp} from 'vue';
 import App from './App.vue';
 
 createApp(App).mount('#root');
-
+</code>
 step 05:
 Modify the webpack.mix.js file
 
@@ -50,7 +50,7 @@ npm run watch
 step 06:
 php artisan serve
 
-======================================================================================================================================================================
+============================================================================================================================
 
 ## About Laravel
 
