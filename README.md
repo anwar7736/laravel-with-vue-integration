@@ -21,13 +21,13 @@ Step 03:<br>
 npm install vue@next vue-loader@next
 
 Step 04:<br>
-Modify the resources/js/app.js file<br>
+Modify the resources/js/app.js file<br><br>
 <code>require('./bootstrap');</code><br>
 <code>import {createApp} from 'vue';</code><br>
 <code>import App from './App.vue';</code><br>
 <code>createApp(App).mount('#root');</code><br/><br>
 Step 05:<br>
-Modify the webpack.mix.js file<br>
+Modify the webpack.mix.js file<br><br>
 <code>mix.js('resources/js/app.js', 'public/js').vue()</code><br>
 <code> .postCss('resources/css/app.css', 'public/css', []);</code><br><br>
 Step 06:<br>
