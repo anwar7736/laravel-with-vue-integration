@@ -6,7 +6,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
-<h3>##Laravel & Vue js integration</h3>
+<h3>##Laravel with Vue js integration</h3>
 
 Step 01:<br>
 composer create-project laravel/laravel example-app<br>
