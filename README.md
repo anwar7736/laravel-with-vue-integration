@@ -9,7 +9,7 @@
 ##Laravel & Vue js integration
 
 step 01:
-composer create-project laravel/laravel example-app
+composer create-project laravel/laravel example-app<br>
 or
 composer global require laravel/installer
 laravel new example-app
