@@ -6,48 +6,48 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
-##Laravel & Vue js integration
+<h3>##Laravel & Vue js integration</h3>
 
-step 01:
+step 01:<br>
 composer create-project laravel/laravel example-app<br>
-or
-composer global require laravel/installer
-laravel new example-app
+or<br>
+composer global require laravel/installer<br>
+laravel new example-app<br>
 
-step 02:
-npm install
+step 02:<br>
+npm install<br>
 
-step 03:
+step 03:<br>
 npm install vue@next vue-loader@next
 
-step 04:
-Modify the resources/js/app.js file
+step 04:<br>
+Modify the resources/js/app.js file<br>
 <code>
-require('./bootstrap');
-import {createApp} from 'vue';
-import App from './App.vue';
+require('./bootstrap');<br>
+import {createApp} from 'vue';<br>
+import App from './App.vue';<br>
 
-createApp(App).mount('#root');
+createApp(App).mount('#root');<br>
 </code>
-step 05:
+step 05:<br>
 Modify the webpack.mix.js file
 
-mix.js('resources/js/app.js', 'public/js').vue()
-    .postCss('resources/css/app.css', 'public/css', [
+mix.js('resources/js/app.js', 'public/js').vue()<br>
+    .postCss('resources/css/app.css', 'public/css', [<br>
         //
-    ]);
+    ]);<br>
 
-step 04:
-Modify the laravel root blade file with #root id
-
- <div id="root">
+step 04:<br>
+Modify the laravel root blade file with #root id<br>
+<code>
+ <div id="root"><br>
 
  </div>
- 
-step 05:
+ </code>
+step 05:<br>
 npm run watch
 
-step 06:
+step 06:<br>
 php artisan serve
 
 ============================================================================================================================
