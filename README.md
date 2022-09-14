@@ -27,10 +27,9 @@ Modify the resources/js/app.js file<br>
 <code>import App from './App.vue';</code><br>
 <code>createApp(App).mount('#root');</code><br/>
 Step 05:<br>
-Modify the webpack.mix.js file
+Modify the webpack.mix.js file<br>
 <code>mix.js('resources/js/app.js', 'public/js').vue()</code><br>
-<code> .postCss('resources/css/app.css', 'public/css', [</code><br>
-<code>]);</code><br>
+<code> .postCss('resources/css/app.css', 'public/css', []);</code><br>
 Step 04:<br>
 Modify the laravel root blade file with #root id<br><br>
 Step 05:<br>
